@@ -19,7 +19,7 @@ class BikeFactory extends Factory
         return [
             'name' => fake()->name(),
             'price' => 200000000,
-            'image' => fake()->imageUrl(),
+            'image' => asset('test.webp'),
             'weight' => random_int(500, 2000)
         ];
     }
